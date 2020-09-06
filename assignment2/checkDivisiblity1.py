@@ -2,7 +2,7 @@
 # file name : checkDivisibility.py
 # date  : 5/9/2020 
 
-num = int(input("enter the number"))
+num = float(input("enter the number"))
 
 if (not(num % 11)) and (not(num % 13)):
     print("{} is divisible by 11 and 13.".format(num))
